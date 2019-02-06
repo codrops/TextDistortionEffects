@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Text Distortion Effects using Blotter.js | Demo 1 | Codrops</title>
+		<meta name="description" content="Some text distortion experiments using the Blotter.js library. The idea is to distort text as we scroll or move the mouse." />
+		<meta name="keywords" content="blotter.js, distortion, text, effect, webgl, scroll, web developement" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<link href="https://fonts.googleapis.com/css?family=Goblin+One|IBM+Plex+Sans:500" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+	</head>
+	<body class="demo-1 loading">
+		<main>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Text Distortion Effects using <a href="https://blotter.js.org/">Blotter.js</a></h1>
+					<p class="frame__tagline">The scroll speed determines the distortion</p>
+				</div>
+				<a class="frame__github" href="https://github.com/codrops/TextDistortionEffects/">GitHub</a>
+				<div class="frame__links">
+					<a href="https://tympanus.net/Tutorials/CustomCursors/">Previous Demo</a>
+					<a href="https://tympanus.net/codrops/?p=38200">Article</a>
+				</div>
+				<div class="frame__demos">
+					<a href="index.html" class="frame__demo">demo 1</a>
+					<a href="index2.html" class="frame__demo frame__demo--current">demo 2</a>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/3.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">A9</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/2.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">R4</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/4.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">B7</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/8.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">K3</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/5.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">T2</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/6.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">H8</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/10.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">X5</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/1.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">A6</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/9.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">S2</span></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image: url(img/7.jpg)"></div>
+					<div class="grid__item-letter" data-blotter><span class="content__text-inner">W4</span></div>
+				</div>
+			</div>
+		</main>
+		<script src="js/blotter.min.js"></script>
+        <script src="js/materials/channelSplitMaterial.js"></script>
+        <script src="js/materials/liquidDistortMaterial.js"></script>
+		<script src="js/materials/rollingDistortMaterial.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>

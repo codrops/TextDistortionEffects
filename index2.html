@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Text Distortion Effects with Blotter.js | Demo 2 | Codrops</title>
+		<meta name="description" content="Some text distortion experiments using the Blotter.js library. The idea is to distort text as we scroll or move the mouse." />
+		<meta name="keywords" content="blotter.js, distortion, text, effect, webgl, scroll, web developement" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|IBM+Plex+Sans:500" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+	</head>
+	<body class="demo-2 loading">
+		<main>
+			<div class="message">Please view on desktop to see the effect</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Text Distortion Effects with <a href="https://blotter.js.org/">Blotter.js</a></h1>
+					<p class="frame__tagline">The mouse speed determines the distortion</p>
+				</div>
+				<a class="frame__github" href="https://github.com/codrops/TextDistortionEffects/">GitHub</a>
+				<div class="frame__links">
+					<a href="https://tympanus.net/Tutorials/CustomCursors/">Previous Demo</a>
+					<a href="https://tympanus.net/codrops/?p=38200">Article</a>
+				</div>
+				<div class="frame__demos">
+					<a href="index.html" class="frame__demo">demo 1</a>
+					<a href="index2.html" class="frame__demo frame__demo--current">demo 2</a>
+				</div>
+			</div>
+			<div class="content">
+				<div class="content__img-wrap">
+					<div class="content__img"></div>
+					<div class="content__img"></div>
+					<div class="content__img"></div>
+				</div>
+				<div class="content__text"><span class="content__text-inner">.01</span></div>
+			</div>
+		</main>
+		<script src="js/blotter.min.js"></script>
+        <script src="js/materials/liquidDistortMaterial.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/demo2.js"></script>
+	</body>
+</html>

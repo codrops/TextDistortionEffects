@@ -1,6 +1,6 @@
 # Text Distortion Effects using Blotter.js
 
-Some experiments using the Blotter.js library that allows for distorting text.
+Some experiments using the [Blotter.js](https://blotter.js.org/) library that allows for distorting text.
 
 ![Text Distortion Effects](https://tympanus.net/codrops/wp-content/uploads/2019/02/TextDistortionEffects_featured.jpg)
 
@@ -10,7 +10,7 @@ Some experiments using the Blotter.js library that allows for distorting text.
 
 ## Credits
 
-- [blotter.js](https://blotter.js.org/)
+- [Blotter.js](https://blotter.js.org/)
 - Images from [Unsplash.com](https://unsplash.com/)
 - [imagesLoaded](https://imagesloaded.desandro.com/) by Dave DeSandro
 
